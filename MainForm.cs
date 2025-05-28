@@ -26,8 +26,7 @@ namespace ContactLict
         {
             this.Hide(); // Ẩn MainForm
 
-            AddContactForm addForm = new AddContactForm();
-            addForm.ShowDialog(); // Hiển thị form thêm liên hệ
+         
 
             this.Show();
         }
