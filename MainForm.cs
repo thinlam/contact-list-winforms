@@ -21,5 +21,15 @@ namespace ContactLict
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ẩn MainForm
+
+            AddContactForm addForm = new AddContactForm();
+            addForm.ShowDialog(); // Hiển thị form thêm liên hệ
+
+            this.Show();
+        }
     }
 }
